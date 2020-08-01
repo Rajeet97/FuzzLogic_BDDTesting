@@ -1,0 +1,240 @@
+[
+  {
+    "description": "  As a registered Covid-19 user\n  In order to logg in the application\n  I want to login",
+    "elements": [
+      {
+        "id": "login;login",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Covid-19 login page",
+            "result": {
+              "status": "passed",
+              "duration": 5063535501
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Acer\\Desktop\\test\\step-definitions\\login-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"sam\" and I enter \"sam123\" and I click login",
+            "result": {
+              "status": "passed",
+              "duration": 454453101
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Acer\\Desktop\\test\\step-definitions\\login-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see \"User Information\" in the results",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 946628700
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Acer\\Desktop\\test\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Login",
+    "tags": [
+      {
+        "name": "@search",
+        "line": 1
+      }
+    ],
+    "uri": "C:/Users/Acer/Desktop/test/features/login.feature"
+  },
+  {
+    "description": "  As a part of Covid-19\n  In order to view news in the application\n  I want to view news",
+    "elements": [
+      {
+        "id": "view-news-of-covid-19;view-news-of-covid-19",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "View news of Covid-19",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Covid-19 newsfeed page",
+            "result": {
+              "status": "passed",
+              "duration": 6017219301
+            },
+            "line": 8,
+            "match": {
+              "location": "step.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I am on newsfeed page and I click newsfeed button",
+            "result": {
+              "status": "passed",
+              "duration": 969165600
+            },
+            "line": 9,
+            "match": {
+              "location": "step.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see \"Covid-19 Related News Feed\" in the news",
+            "result": {
+              "status": "passed",
+              "duration": 43077900
+            },
+            "line": 10,
+            "match": {
+              "location": "step.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 685392400
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Acer\\Desktop\\test\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "view-news-of-covid-19",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "View news of Covid-19",
+    "tags": [
+      {
+        "name": "@search",
+        "line": 1
+      }
+    ],
+    "uri": "C:/Users/Acer/Desktop/test/features/Newsfeed.feature"
+  },
+  {
+    "description": "  As a part of Covid-19\n  In order to login to the application\n  I want to register",
+    "elements": [
+      {
+        "id": "register-in-covid-19-care;register-in-covid-19-care",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Register in Covid-19 care",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Covid-19 registration  page",
+            "result": {
+              "status": "passed",
+              "duration": 4757459199
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Acer\\Desktop\\test\\step-definitions\\signup-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"samusharma\" and I enter \"sandhi\" and  I enter \"sandhi234@gmail.com\" and I enter \"samiksha124\" I click signup button",
+            "result": {
+              "status": "passed",
+              "duration": 965547499
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Acer\\Desktop\\test\\step-definitions\\signup-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see \"User was registered successfully!\" in the registration results",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 679427500
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Acer\\Desktop\\test\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "register-in-covid-19-care",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Register in Covid-19 care",
+    "tags": [
+      {
+        "name": "@search",
+        "line": 1
+      }
+    ],
+    "uri": "C:/Users/Acer/Desktop/test/features/Signup.feature"
+  }
+]

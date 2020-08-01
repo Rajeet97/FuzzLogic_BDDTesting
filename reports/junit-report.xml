@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="login;login" tests="3" failures="0" skipped="1">
+        <properties>
+            <property name="@search" value="true">
+            </property>
+            <property name="URI" value="C:/Users/Acer/Desktop/test/features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on Covid-19 login page" classname="login;login" time="5.063535501">
+        </testcase>
+        <testcase name="When I enter &quot;sam&quot; and I enter &quot;sam123&quot; and I click login" classname="login;login" time="0.454453101">
+        </testcase>
+        <testcase name="Then I should see &quot;User Information&quot; in the results" classname="login;login">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="view-news-of-covid-19;view-news-of-covid-19" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@search" value="true">
+            </property>
+            <property name="URI" value="C:/Users/Acer/Desktop/test/features/Newsfeed.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on Covid-19 newsfeed page" classname="view-news-of-covid-19;view-news-of-covid-19" time="6.017219301">
+        </testcase>
+        <testcase name="When I am on newsfeed page and I click newsfeed button" classname="view-news-of-covid-19;view-news-of-covid-19" time="0.9691656">
+        </testcase>
+        <testcase name="Then I should see &quot;Covid-19 Related News Feed&quot; in the news" classname="view-news-of-covid-19;view-news-of-covid-19" time="0.0430779">
+        </testcase>
+    </testsuite>
+    <testsuite name="register-in-covid-19-care;register-in-covid-19-care" tests="3" failures="0" skipped="1">
+        <properties>
+            <property name="@search" value="true">
+            </property>
+            <property name="URI" value="C:/Users/Acer/Desktop/test/features/Signup.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on Covid-19 registration  page" classname="register-in-covid-19-care;register-in-covid-19-care" time="4.757459199">
+        </testcase>
+        <testcase name="When I enter &quot;samusharma&quot; and I enter &quot;sandhi&quot; and  I enter &quot;sandhi234@gmail.com&quot; and I enter &quot;samiksha124&quot; I click signup button" classname="register-in-covid-19-care;register-in-covid-19-care" time="0.965547499">
+        </testcase>
+        <testcase name="Then I should see &quot;User was registered successfully!&quot; in the registration results" classname="register-in-covid-19-care;register-in-covid-19-care">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>
